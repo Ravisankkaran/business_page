@@ -1,0 +1,63 @@
+#app{
+  height: 100vh;
+   .navbar-nav{
+    margin-left: 27%;
+    gap: 20px;
+   }
+   .navbar-brand{
+    font-size: 32px;
+    
+    line-height: 1;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+   
+    
+   
+   
+     font-family: "Raleway", sans-serif;;
+   }
+   .nav-link{
+    font-size: 15px;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #888888;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+   }
+   .nav-link:hover{
+    color: black;
+   }
+  .nav-link .active{
+    color: black;
+  }
+  
+  .nav-link::after {
+    content: '';
+    position: absolute;
+    width: 50%;
+    transform: scaleX(0);
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    margin-top: -10px;
+    background-color: #34b7a7; /* Change to desired underline color */
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .nav-link:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  
+   .social-links{
+    display: flex;
+    margin-left: 75%;
+    gap: 20px;
+    // padding: 20px;
+   }
+}

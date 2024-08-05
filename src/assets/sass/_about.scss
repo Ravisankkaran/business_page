@@ -1,0 +1,70 @@
+#about{
+    
+    .about-img{
+        width: 100%;
+        height: auto;
+    }
+    .font-head{
+      font-weight: 700;
+      font-size: 26px;
+      color: #555555;
+    }
+     li {
+      padding-left: 0;
+    }
+    .font-para{
+      font-style: italic !important;
+    }
+    .skill,.val{
+      padding: 10px 0;
+    margin: 0 0 6px 0;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #222222;
+    }
+    .row{
+      margin-left: 100px;
+    }
+    .bio{
+      padding-right: 0%;
+    padding-left: 0%;
+    }
+    
+        ul {
+            list-style-type: none;
+            padding: 0;
+            
+          }
+         
+          li{
+            padding: 10px;
+            font-size: medium;
+          }
+          
+          .progress-container{
+           
+            padding: 10px;
+          }
+          .count{
+            font-size: 48px;
+    color: #34b7a7;
+          }
+          .count-name{
+            padding: 0;
+            margin: 0 0 20px 0;
+            font-family: "Raleway", sans-serif;
+            font-size: 14px;
+          }
+          .progress-bar{
+            background-color: #34b7a7;
+            // border-radius: 0%;
+          }
+          .progress{
+            border-radius: 0%;
+            height: 1 0px;
+          }
+          
+    }
+   

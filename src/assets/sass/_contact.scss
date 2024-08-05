@@ -1,0 +1,33 @@
+#contact{
+   
+    .submit-btn{
+        background: #34b7a7;
+        border: 0;
+        padding: 10px 30px 12px 30px;
+        color: #fff;
+        transition: 0.4s;
+        border-radius: 50px;
+    }
+    .location{
+        border: none;
+        border-radius: 50%;
+        font-size: 20px;
+        // color: #fff;
+        color: #34b7a7;
+        background: #effbf9;
+        // background-color: #34b7a7;
+        width: 44px;
+    height: 44px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .location:hover{
+        background-color: #34b7a7;
+        color: #fff;
+    }
+    .fa-location-dot{
+        // margin-left: 10px;
+        // margin-top: 7px;
+    }
+}
